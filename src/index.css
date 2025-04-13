@@ -1,0 +1,22 @@
+.square{
+    width: 2px; 
+    height: 12px; 
+    padding: 12px; 
+    margin: 0.8px;
+    text-align: center;
+    white-space: nowrap; 
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center;
+    box-sizing: border-box; 
+    font-weight: bold;
+}
+
+.board-row {
+    display: grid;
+    grid-template-columns: repeat(3, 30px); 
+}
+
+.status{
+    margin-bottom: 8px;
+}
